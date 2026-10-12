@@ -47,31 +47,32 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView"
-        android:layout_width="220dp"
-        android:layout_height="220dp"
-        android:layout_marginTop="62dp"
+        android:layout_width="159dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="25dp"
         app:cardBackgroundColor="@color/biru"
-        app:cardElevation="3dp"
-        app:strokeColor="#8BCEFF"
-        app:strokeWidth="10dp"
         app:cardCornerRadius="40dp"
+        app:cardElevation="3dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPassword">
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+        app:strokeColor="#8BCEFF"
+        app:strokeWidth="10dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="221dp">
+            android:layout_height="178dp">
 
             <Button
                 android:id="@+id/btnSnackBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="28dp"
                 android:backgroundTint="@color/merah"
                 android:text="Snack Bar"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.488"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,12 +80,12 @@
                 android:id="@+id/btnAlertDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="24dp"
                 android:backgroundTint="@color/hijau"
                 android:text="Alert Dialog"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintHorizontal_bias="0.529"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnSnackBar" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -94,13 +95,13 @@
         android:id="@+id/btnKembali"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="192dp"
         android:backgroundTint="@color/kuning"
         android:text="Kembali"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
 
@@ -108,14 +109,43 @@
         android:id="@+id/btnToLima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/biru"
         android:text="Pertemuan 5"
-        android:textStyle="bold"
-        android:backgroundTint="@color/kuning"
         android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+
+    <Button
+        android:id="@+id/btnToEnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/biru"
+        android:text="Pertemuan 6"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toEndOf="@+id/btnToLima"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="96dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="@color/kuning"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toEndOf="@+id/btnKembali"
+        app:layout_constraintTop_toBottomOf="@+id/btnToEnam" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
