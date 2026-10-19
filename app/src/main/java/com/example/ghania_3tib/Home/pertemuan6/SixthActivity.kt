@@ -1,4 +1,4 @@
-package com.example.ghania_3tib.pertemuan6
+package com.example.ghania_3tib.Home.pertemuan6
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -8,9 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.ghania_3tib.R
-import com.example.ghania_3tib.databinding.ActivityLimaBinding
 import com.example.ghania_3tib.databinding.ActivitySixthBinding
-import com.example.ghania_3tib.databinding.ActivityWebViewBinding
 
 class SixthActivity : AppCompatActivity() {
 

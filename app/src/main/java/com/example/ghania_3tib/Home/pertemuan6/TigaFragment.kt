@@ -1,4 +1,4 @@
-package com.example.ghania_3tib.pertemuan6
+package com.example.ghania_3tib.Home.pertemuan6
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
