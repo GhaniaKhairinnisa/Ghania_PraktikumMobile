@@ -30,17 +30,6 @@ class LoginActivity : AppCompatActivity() {
     //pengecekkan login
         // Kode ini harus selalu dipanggil saat butuh akses "user_pref" (tempat penyimpanan)
         val sharedPref = getSharedPreferences("user_pref", MODE_PRIVATE)
-//        // Kondisi jika isLogin bernilai true
-//        val isLogin = sharedPref.getBoolean("isLogin", false)
-//        if (isLogin) {
-//            startActivity(Intent(this, MainActivity::class.java))
-//            finish()
-//            return
-//        }
-//        val tombolLogin : Button = findV0iewById(R.id.btnLogin)
-//        val username : EditText = findViewById(R.id.ettUsername)
-//        val password : EditText = findViewById(R.id.ettPassword)
-
         binding.btnLogin.setOnClickListener {
             val user = binding.ettUsername.text.toString()
             val pass = binding.ettPassword.text.toString()

@@ -17,6 +17,7 @@ class BaseActivity : AppCompatActivity() {
     private lateinit var  binding: ActivityBaseBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+//        installSplashScreen()
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
