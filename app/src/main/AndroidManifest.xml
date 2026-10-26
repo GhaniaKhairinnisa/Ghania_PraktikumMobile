@@ -26,8 +26,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"/>
-<!--            android:theme="@style/Theme.App.Starting">-->
+            android:windowSoftInputMode="adjustResize" />
+        <!-- android:theme="@style/Theme.App.Starting"> -->
         <activity
             android:name=".Home.pertemuan5.LimaActivity"
             android:exported="false"
@@ -50,6 +50,14 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Message.MessageActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home.pertemuan9.NinthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Message.TutorialMessageActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
