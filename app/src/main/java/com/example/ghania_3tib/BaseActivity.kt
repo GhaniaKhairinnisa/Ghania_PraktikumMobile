@@ -32,6 +32,8 @@ class BaseActivity : AppCompatActivity() {
 
         replaceFragment(HomeFragment())
 
+//        binding.bottomNavView.selectedItemId = R.id.home
+
         binding.bottomNavView.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.home -> {

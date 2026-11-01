@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.example.ghania_3tib.databinding.ItemMessageBinding
 
@@ -36,6 +37,14 @@ class MessageAdapter(
 //                Snackbar.LENGTH_SHORT
 //            ).show()
         }
+//di adapter
+//        view.setOnClickListener {
+//            Toast.makeText(
+//                this.context,
+//                "${data.namaMenu} - ${data.harga}",
+//                Toast.LENGTH_SHORT
+//            ).show()
+//        }
         return view
     }
 }

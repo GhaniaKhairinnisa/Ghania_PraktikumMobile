@@ -13,4 +13,14 @@
 <!--        <item name="postSplashScreenTheme">@style/Theme.Kopiko</item>-->
 <!--    </style>-->
     <style name="Theme.Ghania_3TIB" parent="Base.Theme.Ghania_3TIB" />
+
+<!--    <group-->
+<!--        android:pivotX="480"-->
+<!--        android:pivotY="480"-->
+<!--        android:scaleX="0.5"-->
+<!--        android:scaleY="0.5">-->
+
+<!--    <path-->
+<!--        android:fillColor="@color/ruangkarya_accent"-->
+<!--        android:pathData="M 480 0 A 480 480 0 1 1 480 960 A 480 480 0 1 1 480 0" />-->
 </resources>
